@@ -30,6 +30,7 @@ def tek_tek_sayilari_arttir():
                 break
             if a == 999:
                 print(f"BULUNDU {baslangic_sayisi}")
+                exit()
 
         baslangic_sayisi  = baslangic_sayisi + 2
         print(baslangic_sayisi)
